@@ -1,0 +1,58 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Limits my focus to only things that have changed. If it worked before, something
+    is breaking the code.
+    
+    Breaks normal human way of reading what he/she thinks should be written and see
+    what is actually written.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Allow one to see how the file came to be.
+    
+    Trace the thought processes and dead ends that lead to the current organization.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pro: when the change is saved, the author records what the change was meant to do.
+    Pro: easier to walk through many versions and compare.
+    Pro: files that were changed to achieve one goal can be saved under a single record.
+    
+    Cons: must use proprietary tools provided by Google.
+    Cons: no offline support for backups.
+    Cons: easy to forget to save changes.
+    Cons: if data is lost locally between start of changes and commiting changes, those 
+    changes are lost.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Often in code and in linked files, changing one file forces another file to change
+    as well. Saving individual files makes it hard to track down all the changes 
+    needed to support a new file.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    FC on Win; diff on Unix/Mac/Linux.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    One can go back to a working system if something gets broken.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Tracking projects and sharing projects.
+    
+    
+    
+    **********
+    git log
+    git clone url
+    git commit
+    git checkout #
+    
